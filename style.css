@@ -4,28 +4,37 @@ html{
 .head
 {
     max-width:100%;
-    background-color:rgb(147, 141, 177);
+    background-color:rgb(80, 71, 128);
     margin-left:auto;
     margin-right:auto;
+    margin-bottom:30px;
+    margin-top:20px;
+    padding-bottom:30px;
+    padding-top:3px;
     color:rgb(255, 255, 255);
     text-align:center;
     width:100%;
     height:130px;
     
+    
 }
-
 body
 {
     font-family:sans-serif;
     max-width:100%;
-    margin:0;
+    margin-top:-10px;
     color:rgb(90, 90, 90);
     text-align:center;
     background-color:rgb(64, 57, 102);
-    font-size:1.2rem;
+    font-size:1.25rem;
+    
 }
 a:visited
 {color:rgb(255,94,142)}
+a:active
+{color:aliceblue;}
+a
+{color:rgb(255, 168, 198);}
 .gol
 {
     text-align:center;
@@ -47,7 +56,7 @@ a:visited
     width: 550px;
     
     background-color:rgb(80, 71, 128);
-    margin-left:600px;
+    margin-left:250px;
     padding:50px;
     border-bottom:10px;
 
@@ -61,6 +70,7 @@ a:visited
     margin-right:0px;
     padding-top:10px;
     margin-left:0px;
+
     max-width:100%;
     color:whitesmoke;   
 }
@@ -72,17 +82,17 @@ li,ol{
 }
 table
 {
-    margin-left:800px;
+    margin-left:500px;
     
 }
-.chet
+
+input
 {
-    background-color:rgb(114, 111, 111);
+background-color:rgb(61, 55, 98);
+color:white;
+
 }
-.nech
-{
-    background-color: rgb(116, 120, 120);
-}
+
 #main-aside-wrapper {
     display: flex;
     flex-direction: column;
@@ -97,8 +107,9 @@ order: 1;
 background-color:rgb(43, 39, 58);
 margin-left:0;
 text-align:center;
-font-family:Impact, 'Arial Narrow Bold', sans-serif;
-margin-top:1000px;
+font-family: sans-serif;
+font-size:2em;
+padding-top:200px;
 }
 #main-aside-wrapper main {
 flex: 3;
@@ -114,15 +125,19 @@ flex-direction: row;
 }
 .footer
 {
-    margin-top:100px;
     color:white;
-    background-color:rgb(89, 81, 132)
+    margin-top:10px;
 }
 .form
 {
     margin-top:10px;
     text-align: left;
     padding-left:200px;
+    font:1.1em;
 }
-.c1{order:1}
-.c2{order:2}
+#c1{
+    flex:3;
+    order:3}
+#c2{
+    flex:1;
+    order:4}
