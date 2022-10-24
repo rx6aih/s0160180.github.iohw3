@@ -82,7 +82,7 @@ li,ol{
 }
 table
 {
-    margin-left:500px;
+    margin-left:400px;
     
 }
 
@@ -141,3 +141,11 @@ flex-direction: row;
 #c2{
     flex:1;
     order:4}
+    .chet
+    {
+        background-color:rgb(114, 111, 111);
+    }
+    .nech
+    {
+        background-color: rgb(116, 120, 120);
+    }
